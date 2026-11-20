@@ -47,7 +47,7 @@ const PHOTO_JOBS = [
   },
   {
     slug: 'youth-pulpit',
-    input: 'public/assets/aistudio/ChatGPT_Image_6_de_mai._de_2026__16_15_53_29145d93.png',
+    input: 'src/assets/images/youth_pulpit_source.png',
     widths: [640, 1024],
     preset: 'photo',
   },
