@@ -4,8 +4,9 @@ dist/
 build/
 coverage/
 
-# Astro
+# Astro & Vite
 .astro/
+.vite/
 
 # Cloudflare Wrangler
 .wrangler/

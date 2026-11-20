@@ -8,41 +8,116 @@ interface Props {
 }
 
 const {
-  title = "LUXONN — Luxury Architectural Real Estate",
-  description = "World-class luxury real estate platform showcasing architectural trophy residences across Dubai, New York, Miami, Lake Como, Aspen, and Malibu.",
-  ogImage = "https://strvid.nyc3.cdn.digitaloceanspaces.com/motionsite/luxonn_hero_bg%20_img.png"
+  title = "Maestri Oficial — Evangelho da Graça e Vida em Cristo",
+  description = "Site oficial de Maestri Oficial (@maestri.oficial). Anunciando a obra consumada da cruz, a justiça pela fé e o descanso na graça. Convide para sua igreja.",
+  ogImage = "https://m33.live/assets/optimized/portrait-studio-1200w.jpg",
 } = Astro.props;
+
+const canonicalUrl = Astro.url ? Astro.url.href : "https://m33.live/";
 ---
 
 <!doctype html>
-<html lang="en" class="dark scroll-smooth">
+<html lang="pt-BR" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    
-    <!-- Open Graph / Facebook -->
+    <meta name="author" content="Maestri Oficial" />
+    <meta
+      name="keywords"
+      content="Maestri Oficial, Evangelho da Graça, Justiça pela Fé, Obra Consumada da Cruz, Pregação Bíblica, Ministração, Igreja Local, Paraná"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="theme-color" content="#0B0909" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- OpenGraph / Social Sharing -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={Astro.url} />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Maestri Oficial" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="670" />
+    <meta
+      property="og:image:alt"
+      content="Maestri Oficial — Evangelho da Graça, Justiça pela Fé e Vida em Cristo"
+    />
 
-    <!-- Twitter -->
+    <!-- Twitter / X Cards -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content={Astro.url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta
+      name="twitter:image:alt"
+      content="Maestri Oficial — Evangelho da Graça, Justiça pela Fé e Vida em Cristo"
+    />
 
-    <!-- Google Fonts -->
+    <!-- Schema.org Structured Data (Person) -->
+    <script type="application/ld+json" id="schema-person" is:inline>
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Maestri Oficial",
+        "alternateName": "@maestri.oficial",
+        "description": "Pregador e ensinador bíblico brasileiro dedicado ao Evangelho da Graça — anunciando a obra consumada da cruz, o dom da justiça pela fé e a vida em Cristo para igrejas locais, células e encontros.",
+        "jobTitle": "Pregador e Ensinador Bíblico",
+        "url": "https://m33.live/",
+        "image": "https://m33.live/assets/optimized/portrait-studio-1200w.jpg",
+        "knowsLanguage": "pt-BR",
+        "knowsAbout": [
+          "Evangelho da Graça",
+          "Justiça pela Fé",
+          "Obra Consumada da Cruz",
+          "Nova Aliança",
+          "Estudo Bíblico",
+          "Vida em Cristo"
+        ],
+        "sameAs": [
+          "https://www.instagram.com/maestri.oficial/",
+          "https://wa.me/5543996648750"
+        ],
+        "homeLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "PR",
+            "addressCountry": "BR"
+          }
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Convites para Ministrações",
+          "telephone": "+55-43-99664-8750",
+          "url": "https://wa.me/5543996648750",
+          "availableLanguage": ["Portuguese"]
+        }
+      }
+    </script>
+
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="/assets/optimized/portrait-studio-1920w.webp"
+      fetchpriority="high"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    />
   </head>
-  <body class="bg-[#050505] text-white antialiased selection:bg-[#D4A95F] selection:text-black overflow-x-hidden min-h-screen">
+  <body class="bg-[#0B0909] text-white antialiased overflow-x-hidden min-h-screen">
     <slot />
   </body>
 </html>

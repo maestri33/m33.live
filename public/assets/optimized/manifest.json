@@ -1,0 +1,140 @@
+{
+  "version": "2.0.0",
+  "updatedAt": "2026-11-20T01:36:14.672Z",
+  "items": {
+    "portrait-studio": {
+      "slug": "portrait-studio",
+      "widths": [
+        640,
+        1200,
+        1920
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 490780,
+      "avifBytes": 40127,
+      "webpBytes": 57792,
+      "jpgBytes": 64305,
+      "grade": {
+        "brightness": 1.082,
+        "saturation": 1.08,
+        "contrastSlope": 1.08,
+        "contrastOffset": -10.24,
+        "sharpenSigma": 0.88
+      }
+    },
+    "stage-live": {
+      "slug": "stage-live",
+      "widths": [
+        640,
+        1200
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 473921,
+      "avifBytes": 35049,
+      "webpBytes": 48462,
+      "jpgBytes": 59983,
+      "grade": {
+        "brightness": 1.073,
+        "saturation": 1.08,
+        "contrastSlope": 1.08,
+        "contrastOffset": -10.24,
+        "sharpenSigma": 0.88
+      }
+    },
+    "beige-pulpit": {
+      "slug": "beige-pulpit",
+      "widths": [
+        640,
+        1200
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 630865,
+      "avifBytes": 82762,
+      "webpBytes": 130066,
+      "jpgBytes": 125058,
+      "grade": {
+        "brightness": 1.014,
+        "saturation": 1.06,
+        "contrastSlope": 1.06,
+        "contrastOffset": -7.68,
+        "sharpenSigma": 0.88
+      }
+    },
+    "blazer-preach": {
+      "slug": "blazer-preach",
+      "widths": [
+        640,
+        1200
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 661113,
+      "avifBytes": 94882,
+      "webpBytes": 160006,
+      "jpgBytes": 147652,
+      "grade": {
+        "brightness": 1.036,
+        "saturation": 1.08,
+        "contrastSlope": 1.04,
+        "contrastOffset": -5.12,
+        "sharpenSigma": 0.88
+      }
+    },
+    "couple-blessing": {
+      "slug": "couple-blessing",
+      "widths": [
+        640,
+        1200
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 716084,
+      "avifBytes": 110386,
+      "webpBytes": 207998,
+      "jpgBytes": 170501,
+      "grade": {
+        "brightness": 1.055,
+        "saturation": 1.08,
+        "contrastSlope": 1.08,
+        "contrastOffset": -10.24,
+        "sharpenSigma": 0.88
+      }
+    },
+    "baby-dedication": {
+      "slug": "baby-dedication",
+      "widths": [
+        640,
+        1200
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 637196,
+      "avifBytes": 105386,
+      "webpBytes": 158040,
+      "jpgBytes": 157331,
+      "grade": {
+        "brightness": 1.019,
+        "saturation": 1.06,
+        "contrastSlope": 1.06,
+        "contrastOffset": -7.68,
+        "sharpenSigma": 0.88
+      }
+    },
+    "youth-pulpit": {
+      "slug": "youth-pulpit",
+      "widths": [
+        640,
+        1024
+      ],
+      "sourceMtimeMs": 1795148922000,
+      "originalBytes": 2032273,
+      "avifBytes": 81135,
+      "webpBytes": 111736,
+      "jpgBytes": 124817,
+      "grade": {
+        "brightness": 1.031,
+        "saturation": 1.06,
+        "contrastSlope": 1.04,
+        "contrastOffset": -5.12,
+        "sharpenSigma": 0.88
+      }
+    }
+  }
+}
