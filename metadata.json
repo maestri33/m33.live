@@ -1,0 +1,6 @@
+{
+  "name": "LUXONN — Luxury Architectural Real Estate",
+  "description": "World-class luxury real estate platform showcasing architectural trophy residences across Dubai, New York, Miami, Lake Como, Aspen, and Malibu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
